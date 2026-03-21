@@ -1,0 +1,12 @@
+/mnt/code/f/bevy_monitors/target/debug/deps/bevy_utils-e74be37daff2c144.d: /home/slyedoc/.cargo/git/checkouts/bevy-50d7e162b728c6c6/fd0e08a/crates/bevy_utils/src/lib.rs /home/slyedoc/.cargo/git/checkouts/bevy-50d7e162b728c6c6/fd0e08a/crates/bevy_utils/src/atomic_id.rs /home/slyedoc/.cargo/git/checkouts/bevy-50d7e162b728c6c6/fd0e08a/crates/bevy_utils/src/bloom_filter.rs /home/slyedoc/.cargo/git/checkouts/bevy-50d7e162b728c6c6/fd0e08a/crates/bevy_utils/src/debug_info.rs /home/slyedoc/.cargo/git/checkouts/bevy-50d7e162b728c6c6/fd0e08a/crates/bevy_utils/src/default.rs /home/slyedoc/.cargo/git/checkouts/bevy-50d7e162b728c6c6/fd0e08a/crates/bevy_utils/src/once.rs /home/slyedoc/.cargo/git/checkouts/bevy-50d7e162b728c6c6/fd0e08a/crates/bevy_utils/src/map.rs /home/slyedoc/.cargo/git/checkouts/bevy-50d7e162b728c6c6/fd0e08a/crates/bevy_utils/src/parallel_queue.rs
+
+/mnt/code/f/bevy_monitors/target/debug/deps/libbevy_utils-e74be37daff2c144.rmeta: /home/slyedoc/.cargo/git/checkouts/bevy-50d7e162b728c6c6/fd0e08a/crates/bevy_utils/src/lib.rs /home/slyedoc/.cargo/git/checkouts/bevy-50d7e162b728c6c6/fd0e08a/crates/bevy_utils/src/atomic_id.rs /home/slyedoc/.cargo/git/checkouts/bevy-50d7e162b728c6c6/fd0e08a/crates/bevy_utils/src/bloom_filter.rs /home/slyedoc/.cargo/git/checkouts/bevy-50d7e162b728c6c6/fd0e08a/crates/bevy_utils/src/debug_info.rs /home/slyedoc/.cargo/git/checkouts/bevy-50d7e162b728c6c6/fd0e08a/crates/bevy_utils/src/default.rs /home/slyedoc/.cargo/git/checkouts/bevy-50d7e162b728c6c6/fd0e08a/crates/bevy_utils/src/once.rs /home/slyedoc/.cargo/git/checkouts/bevy-50d7e162b728c6c6/fd0e08a/crates/bevy_utils/src/map.rs /home/slyedoc/.cargo/git/checkouts/bevy-50d7e162b728c6c6/fd0e08a/crates/bevy_utils/src/parallel_queue.rs
+
+/home/slyedoc/.cargo/git/checkouts/bevy-50d7e162b728c6c6/fd0e08a/crates/bevy_utils/src/lib.rs:
+/home/slyedoc/.cargo/git/checkouts/bevy-50d7e162b728c6c6/fd0e08a/crates/bevy_utils/src/atomic_id.rs:
+/home/slyedoc/.cargo/git/checkouts/bevy-50d7e162b728c6c6/fd0e08a/crates/bevy_utils/src/bloom_filter.rs:
+/home/slyedoc/.cargo/git/checkouts/bevy-50d7e162b728c6c6/fd0e08a/crates/bevy_utils/src/debug_info.rs:
+/home/slyedoc/.cargo/git/checkouts/bevy-50d7e162b728c6c6/fd0e08a/crates/bevy_utils/src/default.rs:
+/home/slyedoc/.cargo/git/checkouts/bevy-50d7e162b728c6c6/fd0e08a/crates/bevy_utils/src/once.rs:
+/home/slyedoc/.cargo/git/checkouts/bevy-50d7e162b728c6c6/fd0e08a/crates/bevy_utils/src/map.rs:
+/home/slyedoc/.cargo/git/checkouts/bevy-50d7e162b728c6c6/fd0e08a/crates/bevy_utils/src/parallel_queue.rs:
