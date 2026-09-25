@@ -105,13 +105,16 @@ fn watch_for_change<C: Component>(
         ),
     >,
 ) {
-    local_monitors.iter_many(changed.iter()).for_each(|entity| {
-        commands.trigger(Mutation::<C> {
-            entity,
-            mutated: entity,
-            _phantom: PhantomData,
+    local_monitors
+        .iter_many(changed.iter())
+        .flatten()
+        .for_each(|entity| {
+            commands.trigger(Mutation::<C> {
+                entity,
+                mutated: entity,
+                _phantom: PhantomData,
+            });
         });
-    });
 
     monitors
         .iter()

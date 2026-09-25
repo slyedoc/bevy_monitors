@@ -32,7 +32,7 @@ pub struct Addition<C: Component> {
 ///
 /// # Technical info
 ///
-/// Adding this component to an entity will spawn an [`Observer`] for event [`On<Add, C>`], this is
+/// Adding this component to an entity will spawn an [`Observer`] for event [`On<Add<C>>`], this is
 /// only done once.
 ///
 /// When all instances of this component in the world are removed the observer will be despawned.
@@ -78,7 +78,7 @@ impl<C: Component> NotifyAdded<C> {
 }
 
 pub(crate) fn notify_on_add<C: Component>(
-    add: On<Add, C>,
+    add: On<Add<C>>,
     mut commands: Commands,
     local_monitors: Query<Entity, (With<NotifyAdded<C>>, With<MonitorSelf>)>,
     monitors: Query<(Entity, &Monitor), With<NotifyAdded<C>>>,

@@ -72,7 +72,7 @@ impl<C: Component> NotifyRemoved<C> {
 }
 
 pub(crate) fn notify_on_remove<C: Component>(
-    remove: On<Remove, C>,
+    remove: On<Remove<C>>,
     mut commands: Commands,
     local_monitors: Query<Entity, (With<NotifyRemoved<C>>, With<MonitorSelf>)>,
     monitors: Query<(Entity, &Monitor), With<NotifyRemoved<C>>>,

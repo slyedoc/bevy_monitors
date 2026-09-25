@@ -16,7 +16,7 @@ bevy_ecs = { git = "https://github.com/bevyengine/bevy", branch = "main" }
 bevy_reflect = { git = "https://github.com/bevyengine/bevy", branch = "main" }
 
 [dev-dependencies]
-bevy = { git = "https://github.com/bevyengine/bevy", branch = "main", features = ["experimental_bevy_feathers"] }
+bevy = { git = "https://github.com/bevyengine/bevy", branch = "main", features = ["bevy_ui_widgets"] }
 
 # Build against the side-by-side fork checkout, same as the rest of the stack.
 [patch."https://github.com/bevyengine/bevy"]
