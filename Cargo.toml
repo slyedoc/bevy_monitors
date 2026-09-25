@@ -7,7 +7,7 @@ authors = [ "Freyja Moth" ]
 license = "MIT OR Apache-2.0"
 repository = "https://github.com/Freyja-moth/bevy_monitors"
 
-version = "0.2.2"
+version = "0.3.0"
 edition = "2024"
 
 [dependencies]
@@ -17,3 +17,45 @@ bevy_reflect = { git = "https://github.com/bevyengine/bevy", branch = "main" }
 
 [dev-dependencies]
 bevy = { git = "https://github.com/bevyengine/bevy", branch = "main", features = ["experimental_bevy_feathers"] }
+
+# Build against the side-by-side fork checkout, same as the rest of the stack.
+[patch."https://github.com/bevyengine/bevy"]
+bevy = { path = "/home/slyedoc/code/f/bevy" }
+bevy_a11y = { path = "/home/slyedoc/code/f/bevy/crates/bevy_a11y" }
+bevy_animation = { path = "/home/slyedoc/code/f/bevy/crates/bevy_animation" }
+bevy_app = { path = "/home/slyedoc/code/f/bevy/crates/bevy_app" }
+bevy_asset = { path = "/home/slyedoc/code/f/bevy/crates/bevy_asset" }
+bevy_camera = { path = "/home/slyedoc/code/f/bevy/crates/bevy_camera" }
+bevy_color = { path = "/home/slyedoc/code/f/bevy/crates/bevy_color" }
+bevy_derive = { path = "/home/slyedoc/code/f/bevy/crates/bevy_derive" }
+bevy_diagnostic = { path = "/home/slyedoc/code/f/bevy/crates/bevy_diagnostic" }
+bevy_ecs = { path = "/home/slyedoc/code/f/bevy/crates/bevy_ecs" }
+bevy_feathers = { path = "/home/slyedoc/code/f/bevy/crates/bevy_feathers" }
+bevy_gilrs = { path = "/home/slyedoc/code/f/bevy/crates/bevy_gilrs" }
+bevy_gizmos = { path = "/home/slyedoc/code/f/bevy/crates/bevy_gizmos" }
+bevy_gltf = { path = "/home/slyedoc/code/f/bevy/crates/bevy_gltf" }
+bevy_image = { path = "/home/slyedoc/code/f/bevy/crates/bevy_image" }
+bevy_input = { path = "/home/slyedoc/code/f/bevy/crates/bevy_input" }
+bevy_input_focus = { path = "/home/slyedoc/code/f/bevy/crates/bevy_input_focus" }
+bevy_internal = { path = "/home/slyedoc/code/f/bevy/crates/bevy_internal" }
+bevy_light = { path = "/home/slyedoc/code/f/bevy/crates/bevy_light" }
+bevy_log = { path = "/home/slyedoc/code/f/bevy/crates/bevy_log" }
+bevy_macro_utils = { path = "/home/slyedoc/code/f/bevy/crates/bevy_macro_utils" }
+bevy_material = { path = "/home/slyedoc/code/f/bevy/crates/bevy_material" }
+bevy_math = { path = "/home/slyedoc/code/f/bevy/crates/bevy_math" }
+bevy_mesh = { path = "/home/slyedoc/code/f/bevy/crates/bevy_mesh" }
+bevy_picking = { path = "/home/slyedoc/code/f/bevy/crates/bevy_picking" }
+bevy_platform = { path = "/home/slyedoc/code/f/bevy/crates/bevy_platform" }
+bevy_ptr = { path = "/home/slyedoc/code/f/bevy/crates/bevy_ptr" }
+bevy_reflect = { path = "/home/slyedoc/code/f/bevy/crates/bevy_reflect" }
+bevy_scene = { path = "/home/slyedoc/code/f/bevy/crates/bevy_scene" }
+bevy_state = { path = "/home/slyedoc/code/f/bevy/crates/bevy_state" }
+bevy_tasks = { path = "/home/slyedoc/code/f/bevy/crates/bevy_tasks" }
+bevy_text = { path = "/home/slyedoc/code/f/bevy/crates/bevy_text" }
+bevy_time = { path = "/home/slyedoc/code/f/bevy/crates/bevy_time" }
+bevy_transform = { path = "/home/slyedoc/code/f/bevy/crates/bevy_transform" }
+bevy_ui = { path = "/home/slyedoc/code/f/bevy/crates/bevy_ui" }
+bevy_ui_widgets = { path = "/home/slyedoc/code/f/bevy/crates/bevy_ui_widgets" }
+bevy_utils = { path = "/home/slyedoc/code/f/bevy/crates/bevy_utils" }
+bevy_window = { path = "/home/slyedoc/code/f/bevy/crates/bevy_window" }
+bevy_winit = { path = "/home/slyedoc/code/f/bevy/crates/bevy_winit" }
